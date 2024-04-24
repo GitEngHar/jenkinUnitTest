@@ -6,7 +6,7 @@ public class Greeting {
     public String getMessage(int times){
         if(times >= 5 && 11 > times){
             message = "GoodMorning";
-        }else if (times >= 11 && 17 > times){
+        }else if (times > 11 && 17 > times){
             message = "Hello";
         }else{
             message = "GoodEvening";
